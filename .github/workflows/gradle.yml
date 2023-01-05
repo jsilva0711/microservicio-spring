@@ -9,11 +9,11 @@ name: Java Test Laboratorio Final
 
 on:
   push:
-    #branches: [ "main" ]
-    branches: [ "feature-ms-JoseSilva-mensaje" ]
+    branches: [ "main" ]
+    #branches: [ "feature-ms-JoseSilva-mensaje" ]
   pull_request:
-    #branches: [ "main" ]
-    branches: [ "feature-ms-JoseSilva-mensaje" ]
+    branches: [ "main" ]
+    #branches: [ "feature-ms-JoseSilva-mensaje" ]
 
 permissions:
   contents: read
