@@ -37,7 +37,4 @@ jobs:
       with:
         arguments: build
         
-    - name: Guarda el artefacto compilado en build/libs
-      with:
-        name: Jar compilado
-        path: build/libs
+
