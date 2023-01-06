@@ -6,6 +6,12 @@
 #trigger:
 #- main
 #pool:
+
+trigger:
+  branches:
+    include:
+    - feature-ms-JoseSilva-mensaje
+
 #  vmImage: ubuntu-latest
 pool: 'Default'
 
