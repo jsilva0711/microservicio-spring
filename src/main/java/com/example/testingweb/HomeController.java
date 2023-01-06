@@ -9,7 +9,8 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public @ResponseBody String greeting() {
-		return "Hello, World";
+		/*return "Hello, World";*/
+		return "Finaliza el curso DevOps Foundation v3. Jose Silva";
 	}
 
 }
